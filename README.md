@@ -75,39 +75,8 @@ O projeto considera as diferenças de estrutura e nomenclatura existentes entre 
 
 O projeto foi estruturado segundo o conceito de **Data Lake em camadas**, com separação entre dados brutos, dados tratados e informações analíticas.
 
-```text
-State of Data Brasil
-       2023 | 2024 | 2025
-              |
-              v
-        INGESTÃO DOS DADOS
-              |
-              v
-       +--------------+
-       |    BRONZE    |
-       | Dados brutos |
-       +--------------+
-              |
-              v
-       +--------------+
-       |    SILVER    |
-       | Padronização |
-       |  e tratamento |
-       +--------------+
-              |
-              v
-       +--------------+
-       |     GOLD     |
-       | Indicadores  |
-       |   analíticos  |
-       +--------------+
-              |
-              v
-      Analytics / DataViz
-              |
-              v
-       Insights e decisões
-```
+
+<img width="362" height="741" alt="TechChallenge drawio" src="https://github.com/user-attachments/assets/37752bb0-3f00-418d-80cb-9a6ce9da85dd" />
 
 ### Bronze
 
